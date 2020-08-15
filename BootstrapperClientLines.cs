@@ -16,7 +16,7 @@ namespace AtomicTorch.CBND.CoreMod.Scripts.Bootstrappers
     using AtomicTorch.CBND.GameApi.ServicesClient;
     using AtomicTorch.CBND.GameApi;
 
-    class BootstrapperClientTest : BaseBootstrapper
+    class BootstrapperClientLines : BaseBootstrapper
     {
         private static ClientInputContext gameplayInputContext;
         private static List<Line> lines = new List<Line>();
